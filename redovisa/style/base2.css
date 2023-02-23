@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* scroll-snap-points-y: repeat(100%); */
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    background: linear-gradient(#fff, #ecc7cd);
+}
+
+.about-me {
+    font-size: 1.2rem;
+}
+
+.headline-text {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+}
+
+
+.section-0 {
+    min-height: 100vh;
+}
+
+.section-1 {
+    background-color: #fff;
+    padding: 6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    min-height: 100vh;
+}
+
+.section-2 {
+    background-color: #ecc7cd;
+    padding: 6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    min-height: 100vh;
+}
+
+.section-3 {
+    background-color: #fff;
+    padding: 6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    min-height: 100vh;
+}
+
+.section-4 {
+    background-color: #ecc7cd;
+    padding: 6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    min-height: 100vh;
+}
+
+.section-5 {
+    background-color: #fff;
+    padding: 6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    min-height: 100vh;
+}
+
+.section-6 {
+    background-color: #ecc7cd;
+    padding: 6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    min-height: 100vh;
+}
+
+.section-7 {
+    background-color: #fff;
+    padding: 6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    min-height: 100vh;
+}
+
+section {
+    color: #000;
+    scroll-snap-align: start;
+    padding: 1rem;
+}
+
+.kmom {
+    width: 75%;
+    margin: 0 auto;
+}

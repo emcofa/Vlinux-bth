@@ -1,0 +1,10 @@
+mv a/anotherfolder b
+mv a/d d
+mv c/1 a/
+mv a/4 b/
+mv b/8 d/
+mv d/3 b/
+mv c/foldername/2 a/
+mv c/foldername/.b/7 d/
+mv a/.6 c/6
+rm -r c/foldername

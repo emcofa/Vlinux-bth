@@ -1,0 +1,47 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 52px;
+    letter-spacing: 1px;
+    line-height: 1;
+    color: #fff;
+}
+
+.head-diff {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.headline-text {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.ext-headline {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.size-headline {
+    font-size: 32px;
+    margin-bottom: 1.5em;
+}
+
+.about-text {
+    color: #fff;
+}
+
+.about-text-head {
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.center {
+    text-align: center;
+}

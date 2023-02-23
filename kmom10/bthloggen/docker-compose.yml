@@ -1,0 +1,35 @@
+version: "3"
+networks:
+    bridge:
+services:
+    server:
+        image: "emcofah/bthloggen-server:1.0"
+        container_name: "server"
+        ports:
+            - "1337:1337"
+        networks:
+            bridge:
+        restart: "always"
+        volumes:
+            - "./data:/server/data"
+    client:
+        image: "emcofah/bthloggen-client:1.0"
+        container_name: "client"
+        networks:
+            bridge:
+        links:
+            - server:server
+    webbclient:
+        image: "emcofah/bthloggen-webbclient:1.0"
+        container_name: webbclient
+        ports:
+            - 1338:1338
+        # volumes:
+        # - './:/webbclient'
+        # - '/webbclient/node_modules'
+        networks:
+            bridge:
+        links:
+            - server:server
+        stdin_open: true
+

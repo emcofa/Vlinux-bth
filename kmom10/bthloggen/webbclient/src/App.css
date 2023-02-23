@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito&display=swap');
+
+* {
+    font-family: 'Lora', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    width: 20%;
+    outline-style: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.searchButton {
+    display: inline-block;
+    background-color: #387bd8;
+    border-radius: 10px;
+    border: 4px double #ccc;
+    color: #eee;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    width: 80px;
+    transition: all 0.3s;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+button:hover {
+    background-color: #387bd8ce;
+}

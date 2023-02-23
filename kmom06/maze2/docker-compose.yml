@@ -1,0 +1,19 @@
+version: "3"
+networks:
+    bridge:
+services:
+    server:
+        image: "emcofah/vlinux-mazeserver:loop"
+        container_name: "mazeserver"
+        ports:
+            - "1337:1337"
+        networks:
+            bridge:
+        restart: "always"
+    client:
+        image: "emcofah/vlinux-mazeclient:loop"
+        container_name: "mazeclient"
+        networks:
+            bridge:
+        links:
+            - server:myserver

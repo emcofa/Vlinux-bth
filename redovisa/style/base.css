@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* scroll-snap-points-y: repeat(100vh); */
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    background: linear-gradient(90deg, #ecc7cd 50%, #fff 50%);
+}
+
+.about-me {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-container {
+    width: 60%;
+    margin: 0 auto;
+    top: 50%;
+}
+
+.accent {
+    color: #000;
+}
+
+.accent2 {
+    color: #ecc7cd;
+}
+
+
+.button {
+    border-width: 0;
+    color: #000;
+    cursor: pointer;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+section {
+    color: #000;
+    scroll-snap-align: start;
+    padding: 1rem;
+}
+

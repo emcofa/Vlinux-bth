@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Shadows+Into+Light&family=DM+Sans:wght@500&display=swap');
+@import 'base2.css';
+@import 'navbar.css';
+@import 'typography.css';
+@import 'flexbox.css';
+@import 'responsive.css';
+@import 'animations.css';
+@import 'footer.css';
+@import 'grid.css';

@@ -1,0 +1,4 @@
+uname -o
+cal 7 2022
+date +"%Y/%m/%d"
+du -sh /usr/bin

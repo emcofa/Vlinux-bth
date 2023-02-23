@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.me-picture {
+    /* max-height: 630px; */
+    max-width: 50%;
+    position: fixed;
+    left: 45%;
+    bottom: 0;
+}
+
+.item {
+    text-align: center;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
